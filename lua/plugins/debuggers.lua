@@ -80,6 +80,9 @@ return {
                 },
             }
 
+            -- F#
+            dap.configurations.fsharp = dap.configurations.cs
+
             vim.fn.sign_define(
                 "DapBreakpoint",
                 { text = "⏺", texthl = "DapBreakpoint", linehl = "DapBreakpoint", numhl = "DapBreakpoint" }
